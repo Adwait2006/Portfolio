@@ -1,0 +1,140 @@
+h1, h2, h3, h4, h5 {
+      font-family: "Geo", sans-serif;
+}
+
+.geo-regular {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.geo-regular-italic {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+a{
+      font-family: "Geo", sans-serif;
+}
+
+.carousel-item img{
+
+    width: 50%;
+    height: auto;
+
+}
+
+p{
+        font-family: "Geo", sans-serif;
+
+}
+
+
+.accordion-body{
+
+     font-family: "Geo", sans-serif;
+     font-size: large;
+
+}
+
+.accordion-button{
+  font-family: "Geo", sans-serif;
+     font-size: large;
+}
+
+button{
+    
+    font-family: "Geo", sans-serif;
+    font-size: large;
+}
+
+---------------------
+
+.hero-section {
+  height: 90vh;
+  background-image: url('images/gray.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+
+/* left gradient to keep text readable */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0.85) 0%,
+    rgba(0,0,0,0.5) 40%,
+    rgba(0,0,0,0) 75%
+  );
+}
+
+.img{
+  position: absolute;
+}
+
+/*  text appears on top of gradient */
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section {
+  height: 90vh;
+  background-image: url('images/gray.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body {
+  background-color: black;
+}
+
+.footer {
+  background: black;
+  color: white;
+}
+
+
+
+.footer-line {
+  width: 1px;
+  height: 100px;
+  background: #7f7f7f;
+  opacity: 0.7;
+}
+
+.footer-home {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-home:hover {
+  opacity: 0.7;
+}
+
+
+/* ai.css */
+
+#projects img {
+    opacity: 0.82;           /* Default slightly transparent */
+    transition: opacity 0.3s ease;  /* Smooth transition */
+}
+
+#projects img:hover {
+    opacity: 1;             /* Fully opaque on hover */
+}
+
+body, html {
+    overflow-x: hidden;
+}
